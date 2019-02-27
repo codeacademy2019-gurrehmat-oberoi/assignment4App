@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import PropTypes from 'prop-types';
 import styles from './FormNameCard.component.style';
 
-class IdeaCard extends Component {
+class FormNameCard extends Component {
   render() {
     const {
       title,
@@ -19,14 +19,14 @@ class IdeaCard extends Component {
   }
 }
 
-IdeaCard.propTypes = {
+FormNameCard.propTypes = {
   title: PropTypes.string,
-  date: PropTypes.instanceOf(Date),
+  date: PropTypes.string,
 };
 
-IdeaCard.defaultProps = {
+FormNameCard.defaultProps = {
   title: 'Default Title',
   date: new Date(2019, 1, 1),
 };
 
-export default IdeaCard;
+export default FormNameCard;
