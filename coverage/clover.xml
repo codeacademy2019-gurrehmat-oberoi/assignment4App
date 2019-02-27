@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1551274429402" clover="3.2.0">
-  <project timestamp="1551274429402" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="8" coveredelements="8" complexity="0" loc="6" ncloc="6" packages="2" files="3" classes="3"/>
+<coverage generated="1551275606517" clover="3.2.0">
+  <project timestamp="1551275606517" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="14" coveredelements="14" complexity="0" loc="11" ncloc="11" packages="3" files="5" classes="5"/>
     <package name="App">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.js" path="/Users/Gurrehmat_Oberoi/react-native-first-app/AwesomeForms/src/components/App/App.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
     </package>
     <package name="FormNameCard">
@@ -19,6 +19,20 @@
         <line num="27" count="2" type="stmt"/>
       </file>
       <file name="FormNameCard.component.style.js" path="/Users/Gurrehmat_Oberoi/react-native-first-app/AwesomeForms/src/components/FormNameCard/FormNameCard.component.style.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="Header">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Header.component.js" path="/Users/Gurrehmat_Oberoi/react-native-first-app/AwesomeForms/src/components/Header/Header.component.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+      <file name="Header.component.style.js" path="/Users/Gurrehmat_Oberoi/react-native-first-app/AwesomeForms/src/components/Header/Header.component.style.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="2" type="stmt"/>
       </file>

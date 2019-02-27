@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Name Card should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "borderWidth": 2,
+      "margin": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "white",
+        "fontSize": 30,
+      }
+    }
+  >
+    Default Header Title
+  </Text>
+</View>
+`;
